@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Portfolio</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Portfolio</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <header class="row">
+                <div class="col-xs-3">
+                    <img class="title-logo" src="img/img_src/fixed/udacity_logo.svg" alt="Udacity Logo">
+                </div>
+                <div class="col-xs-9 text-right text-uppercase">
+                    <h1 class="title-super text-thin">Tushar Goel</h1>
+                    <h4>Front-end Ninja</h4>
+                </div>
+            </header>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <hr class="separator"/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-responsive" src="img/banner-medium-1x.jpg" srcset="img/banner-medium-1x.jpg 1x, img/banner-large-2x.jpg 2x" alt="Portfolio Top Image banner">
+                </div>
+            </div>
+
+            <section class="featured-work">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-muted featured-work-title">Featured Work</h2>
+                    </div>
+                </div>
+
+                <div class="row text-center">
+                    <article class="col-xs-12 col-sm-6 col-md-4 mbot-10">
+                        <img class="img-responsive" src="img/img_src/fixed/appify.jpg" alt="Project Appify">
+                        <h3 class>APPIFY</h3>
+                        <p>http://github.com/udacity/appify</p>
+                    </article>
+                    <article class="col-xs-12 col-sm-6 col-md-4 mbot-10">
+                        <img class="img-responsive" src="img/img_src/fixed/sunflower.png" alt="Project Sunflower">
+                        <h3>SUNFLOWER</h3>
+                        <p>http://github.com/udacity/sunflower</p>
+                    </article>
+                    <article class="col-xs-12 col-sm-6 col-md-4 mbot-10">
+                        <img class="img-responsive" src="img/img_src/fixed/bokeh.jpg" alt="Project Bokeh">
+                        <h3>BOKEH</h3>
+                        <p>http://github.com/udacity/bokeh</p>
+                    </article>
+                </div>
+            </section>
+        </div>
+
+        <footer class="container-fluid text-center">
+            <p>All Rights Reserved. Tushar Goel <cite>2016-17</cite></p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+@media screen and (max-width: 500px) {
+    .title-super {
+        font-size: 30px;
+    }
+    .title-logo {
+        width: 60px;
+    }
+    .featured-work-title {
+        font-size: 25px;
+    }
+}
